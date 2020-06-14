@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'drip';
+    src: url('./fonts/adrip1.ttf')
+}
+header, footer{
+    
+    height: 10vh;
+    width: 100vw;
+    background: fixed black;
+    color: white;
+    margin: -8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 50px;
+    text-shadow: gray 2px 3px 4px;
+}
+
+header a, li{
+    font-family: drip;
+    text-decoration: none;
+    font: bolder;
+    font-size: 30px;
+    color: rgb(0, 140, 255);
+}
+
+li{
+    list-style-type: none;
+    margin: 0px 15px;
+    word-wrap: none;
+}
+
+header a:hover, li:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+header img{
+    height: 40px;
+    /* align-items: center; */
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.landing{
+    text-align: center;
+}
+.landing h1{
+    color: rgb(0, 140, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    height: 8vh;
+    width: 100vw;
+    bottom: 0;
+    /* background: lime; */
+    position: fixed;
+    
+}
